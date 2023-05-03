@@ -29,6 +29,7 @@ const UsuarioSchema = Schema({
     type: String,
     required: [true, " El correo es obligatorio"],
     emun: ["ADMIN_ROLE", "USER_ROLE"],
+    default: "USER_ROLE",
   },
 });
 
